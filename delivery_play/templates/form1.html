@@ -1,0 +1,11 @@
+<h2>Please fill out my form plsthx</h2>
+<!-- we create a new form, which is attached to an action that goes to the endpoint that will associate with the function that will take in the contents of this form.  the user is giving information to the form, so the method is specified as post to hand off that info back to the server.py -->
+<form action='/process_form', method='POST'>
+    <label for='title'>Preferred title: </label>
+    <input id='title', type='text', name='title'>
+    <br />
+    <label for='name'>Preferred name: </label>
+    <input id='name', type='text', name='name'>
+    <br>
+    <input type='submit'>
+</form>
